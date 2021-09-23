@@ -123,6 +123,10 @@ module.exports = {
                 "exports": "CryptoJS.RabbitLegacy",
                 "components": ["core", "enc-base64", "md5", "evpkdf", "cipher-core", "rabbit-legacy"]
             },
+            "SEED": {
+                "exports": "CryptoJS.SEED",
+                "components": ["core", "enc-base64", "md5", "evpkdf", "cipher-core", "SEED"]
+            },
 
             // core
             "core": {
